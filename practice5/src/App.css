@@ -1,0 +1,38 @@
+.app {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  min-height: 100vh;
+}
+.app h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.app h2 {
+  font-weight: normal;
+}
+
+.app h3 {
+  font-weight: normal;
+}
+
+.link-btn:link,
+.link-btn:visited,
+.link-btn:active {
+  text-decoration: none;
+  background-color: #750e51;
+  border: 1px solid #750e51;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 5px 25px;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+.link-btn:hover {
+  background-color: #009688;
+  border: 1px solid #009688;
+}
